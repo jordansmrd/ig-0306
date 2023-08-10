@@ -1,0 +1,46 @@
+.feed {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.feed img {
+  aspect-ratio: 1;
+  object-fit: cover;
+
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-menu {
+  height: 52px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #737373;
+  font-weight: 600;
+}
+.margin-r-60 {
+  margin: -1px 60px 0px 0px;
+}
+.profile-menu span {
+  margin: 0px 0px 0px 6px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.max-container {
+  max-width: 935px;
+  width: 100vw;
+}
+
+.border-top {
+  border-top: 1px solid #ced0d4;
+}
